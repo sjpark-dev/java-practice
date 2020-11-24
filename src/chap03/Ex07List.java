@@ -2,7 +2,7 @@ package chap03;
 
 import java.util.ArrayList;
 
-public class ListType {
+public class Ex07List {
     public static void main(String[] args) {
         ArrayList<String> ages = new ArrayList<String>();
         ages.add("15"); // [15]

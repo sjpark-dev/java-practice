@@ -1,6 +1,6 @@
 package chap03;
 
-public class Char {
+public class Ex03Char {
     public static void main(String[] args) {
         char a1 = 'a';          // 문자값
         char a2 = 97;           // 아스키코드값

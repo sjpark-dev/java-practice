@@ -2,7 +2,7 @@ package chap02;
 
 import java.util.*;
 
-public class Variables {
+public class Ex01Variable {
     public static void main(String[] args) {
         int a;
         long b;

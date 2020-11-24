@@ -1,6 +1,6 @@
 package chap03;
 
-public class Array {
+public class Ex06Array {
     public static void main(String[] args) {
         int[] evens = {2, 4, 6, 8, 10};
 

@@ -1,6 +1,6 @@
 package chap03;
 
-public class StringType {
+public class Ex04String {
     public static void main(String[] args) {
         String a = "Hello"; // literal 방식
         String b = new String("Hello"); // new 키워드 방식

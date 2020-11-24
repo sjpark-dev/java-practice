@@ -1,6 +1,6 @@
 package chap03;
 
-public class Number {
+public class Ex01Number {
     public static void main(String[] args) {
 
         // 정수

@@ -1,6 +1,6 @@
 package chap03;
 
-public class Boolean {
+public class Ex02Boolean {
     public static void main(String[] args) {
         boolean isSuccess = true;
         boolean isTest = false;

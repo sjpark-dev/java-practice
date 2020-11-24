@@ -2,7 +2,7 @@ package chap03;
 
 import java.util.HashMap;
 
-public class MapType {
+public class Ex09Map {
     public static void main(String[] args) {
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("apple", "사과"); // key, value

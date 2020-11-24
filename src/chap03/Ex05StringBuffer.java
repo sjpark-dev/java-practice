@@ -1,6 +1,6 @@
 package chap03;
 
-public class StringBufferType {
+public class Ex05StringBuffer {
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer("Hello");
         System.out.println(sb.toString()); // Hello

@@ -2,7 +2,7 @@ package chap03;
 
 import java.util.ArrayList;
 
-public class Generics {
+public class Ex08Generics {
     public static void main(String[] args) {
         // without generics
         ArrayList list1 = new ArrayList();
