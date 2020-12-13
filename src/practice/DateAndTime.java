@@ -1,6 +1,7 @@
 package practice;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class DateAndTime {
     public static void main(String[] args) {
@@ -23,5 +24,12 @@ public class DateAndTime {
         LocalDate date2 = LocalDate.parse("2020-12-03");
         Period period = Period.between(date, date2);
         System.out.println(period.getDays());
+
+        LocalDateTime ldt = LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss a");
+        System.out.println(ldt.format(dtf));
+        String sldt = "2021-01-01 15:30:20";
+        ldt = LocalDateTime.parse(sldt, DateTimeFormatter.ofPattern("yyyy-MM-dd kk:mm:ss"));
+        System.out.println(ldt);
     }
 }
