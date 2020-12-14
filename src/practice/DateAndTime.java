@@ -31,5 +31,9 @@ public class DateAndTime {
         String sldt = "2021-01-01 15:30:20";
         ldt = LocalDateTime.parse(sldt, DateTimeFormatter.ofPattern("yyyy-MM-dd kk:mm:ss"));
         System.out.println(ldt);
+
+        LocalDateTime localDateTime = LocalDateTime.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        System.out.println(localDateTime.format(dateTimeFormatter));
     }
 }
