@@ -5,5 +5,8 @@ public class EnumPractice {
         for (Menu m : Menu.values()) {
             System.out.println(m.getCost());
         }
+
+        System.out.println(Payment.valueOf("NAVERPAY").getPaymentCode().getPaymentCode());
+        System.out.println(Payment.NAVERPAY.getPaymentCode().getPaymentCode());
     }
 }
